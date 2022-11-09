@@ -1,0 +1,815 @@
+@media (max-width: 767px){
+.lesspadd_rt{padding-right:15px;}
+.lesspadd_lt{padding-left:15px;}
+.platformimgbox img {width:100%;}
+.headersec .navbar .navbar-brand img{width:85px;}
+.navbar-toggler{border:none; padding-right:0;}
+.headersec .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.95)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+.headersec .navbar-nav.leftsidenav {padding-left:0;margin-top:10px;}
+.headersec .navbar-light .navbar-nav .nav-link{font-size:16px; padding-top:0.7rem; padding-bottom:0.7rem;}
+.mobilebelownav{display:block;}
+.headersec{position:absolute; border-bottom:1px solid #d7d7d7;}
+.headersec.posi .navbar{background-color:#fff !important;}
+.homebannersec br{display:none;}
+.bannercaption h2{font-size:14px; padding-bottom:1.2rem;line-height:20px;}
+ul.homebtn li a{display:block; width:100%; margin-bottom:0.5rem; text-align: center;}
+ul.homebtn li{display:block;}
+.bannercaption p {padding-top:1rem;}
+.bannercaption p  span{display:block;}
+.oparatesec{padding:2rem 0; min-height:auto; background-position:bottom center; background-size:100%;}
+.oparatesec.globaccsec{min-height:950px; background-position:bottom center;}
+.oparatesec.cardsec{min-height:910px; background-position:bottom center;}
+.oparatesec h2{font-size:20px; padding-bottom:0rem; padding-top:2rem}
+.oparatecontent h3{font-size:14px;}
+.oparatecontent h5{font-size:18px;}
+.platformprosec{margin-top:4rem;}
+ul.oparatelist li img{width:40px; left:-46px;}
+ul.oparatelist{padding:0 0 0 0; margin: 5px 0px 0px 0px;}
+ul.oparatelist li strong.titlebox{padding-bottom:0.2rem;}
+ul.oparatelist li p{line-height:20px;font-size: 13px;padding-top: 8px;}
+.platformprosec .platprotxt{width:100%; border-radius:20px; padding:1rem; min-height:initial;}
+.platformprosec .platprotxt h2{padding-bottom:1rem; font-size:20px;}
+.platformprosec br{display:none;}
+.platformimgbox{position:relative;bottom:0; margin-top:0;}
+.footerlist{padding-top:1.3rem;}
+.midfooter p{text-align:center; line-height:18px;}
+.policylist{text-align:center;}
+.policylist li{padding:0 5px;}
+.bottomfooter{width:100%; padding:1rem;}
+.bottomfooter p{line-height:20px; margin-bottom:0.5rem;}
+.signinsec{padding:6rem 0;}
+.singinleftform {width:100%;}
+.imagetxtcarbox{padding:1rem;}
+.padright{padding-right:13px;}
+.availbjob p{padding-bottom:10px;}
+.padleft{padding-left:13px;}
+.dashboardsec{padding:4rem 0 1rem;}
+ul.navleftbar li {display:block; width:100%;}
+.dashheader .rightheadercls li{padding-left:0.25rem;}
+.dashheader{padding:1rem;}
+.dashbody{padding:1rem;}
+.dashbody h2{font-size:20px;}
+.sepacontentbox{padding:0.7rem;}
+.footercopytxt{text-align:center;}
+ul.dbfootlist{text-align:center;}
+.customfield ul li label span{width:100%;}
+.customfield input[type=radio]:checked ~ label span{line-height:18px;}
+.sepacontentbox button.addbtn{margin-bottom:1rem;}
+.btnsetprenext ul li a{padding:0.85rem 2.4rem}
+.uploadform{width:100%;}
+.file-upload-wrapper:before{padding:0 1rem;}
+.file-upload-wrapper:after{font-size:12px; padding:10px 7px;}
+.balancebox.usdbalencebox{margin-top:1rem;}
+.paylinkgenerate{padding:2rem 0.5rem;}
+.pagientryblock .numlistshow{text-align:left;}
+.footerlist ul li{margin-bottom:0;}
+.midfooter{padding:1rem 1rem 0; margin:10px 0px 0px 0px;}
+.footersec{padding:10rem 0 1rem;}
+.dashboardsec .navleftbar, .dashboardsec .smalllogodb{display:none;}
+ul.navleftbar{margin-top:1rem;}
+ul.navleftbar li a{font-size:16px;}
+ul.navleftbar li img{left:25px;}
+.dashnavleft{padding:0.7rem;}
+.usercls{font-size:12px;}
+.dashheader .usercls img{width:30px;}
+.rightheadercls{display:none;}
+.userprofilelink{width:85%; padding:0.7rem; border:1px solid #d7d7d7; text-align:center; margin:1rem auto;}
+.userprofilelink .usercls img{width:34px; border-radius:50%; margin-right:7px;}
+.userprofilelink .usercls{font-size:14px;}
+.fordashboardsec{display:block;}
+.paymentrqtbox{padding:0.5rem;}
+.comnamecls.textright{text-align:left!important;}
+.currencybox.invoiceblock{width:58%;}
+.inviewdlbtn{width:40%;}
+.currencybox.paymethbox h2 {font-size:14px;}
+ul.pmlist li .currencybox.addnewaccount a{font-size:14px!important;}
+.sendpaymentform{width:100%;}
+.recigetfield select{width:120px;}
+.cardpayinputbox, .cardinfobox{width:100%;}
+.personlinfrm span{font-size:13px;font-family:'Roboto', sans-serif;}
+.mobaligncntr{text-align:center;}
+.intrvtyp .nav-pills .nav-link{padding:10px 5px;}
+input.sndinvi{margin-bottom:10px;}
+.vidsecsn{padding:30px 0;}
+select.mobseleadjust{margin-bottom:30px;}
+
+/*-------------Babai_20.5.22-------------*/
+
+  .homebannersec{min-height: 530px !important;background-position:center 7% !important;background-size:60% !important;padding-top:35vh;margin-top: 50px;display: flex;align-items: flex-end;text-align:center;padding-bottom: 0;}
+
+  .bannercaption{width: 100%;}
+
+  .banner_heading_all{width: 100%;}
+
+  .banner_heading_all h1{font-size: 21px;padding-bottom:10px;}
+
+  .kXpBwC{display: block;}
+
+  .izvVyF{padding: 10px;margin-bottom: 20px;}
+
+  .fULJlD{display: flex;align-items: center;width: 20%;}
+
+  .jObQxe{display: flex;align-items: center;height: 100%;flex-direction: unset;width: 77%;}
+
+  .jObQxe h3{font-size: 14px;}
+
+  .mainvid video {height: 200px;}
+
+  .vidsecsn h3{font-size:21px;}
+
+  .numbrcunt{padding: 50px 0px 0px 0px;}
+
+  .counter-Txt{padding:30px 0px 20px 0px !important;border-bottom:1px solid rgba(255,255,255,0.2) !important;} 
+
+  #counter .counter-Txt:last-child{border-bottom:none !important;}
+
+  .counter-Txt span{font-size: 40px;}
+
+  .serchsecsn h3 {font-size: 20px;}
+
+  .sertxtbxall{border-right: none;padding-right: 0px;margin-bottom: 20px;}
+
+  .serbox {padding: 20px;}
+
+  .popuimg{width: 20%;margin-right: 10px;}
+
+  .poputxt{width: 72%;}
+
+  ul.oparatelist li{border-bottom:1px solid rgba(0,0,0,0.1)}
+
+  ul.oparatelist li:last-child{border-bottom:none}
+
+  /* .oparatelist li:nth-child(2){margin: 30px 0px;} */
+
+  .oparatelist li strong,.oparatelist li p{margin-left: 10px;}
+
+  .topemploy{margin-top: 50px;}
+
+  .topemploy .row .col-4:nth-child(-n+3){margin-bottom: 40px;}
+
+  .counter-Txt{border: none;margin-top: 0px;padding: 20px 0px;}
+
+  #counter{margin: 0px;}
+
+  .numbrcunt .row .col-lg-4:nth-child(2){border-top: 1px solid rgba(255,255,255,0.4);border-bottom: 1px solid rgba(255,255,255,0.4);}
+
+  .oparatesec.bg_none,.globaccsec{background-image: none !important;}
+
+  .oparatecontent .offset-3{margin-left: 0px;}
+
+  .globaccsec,.employer_inquery_list{padding: 50px 0px;}
+
+  .footersec{padding: 25px 0px 10px 0px !important;}
+
+  
+
+  
+
+/*=====================1-6-2022================*/
+
+  .bannercaption{padding-top:0;}
+
+  .serchsecsn{padding:0px 0; width:100%;}
+
+  .sertxtbxall label{padding-bottom:0;font-size:14px;}
+
+  .populrbx{margin-bottom:10px;}
+
+  .topemploy h3{font-size:18px;}
+
+  .topemploy p{font-size:14px;}
+
+  .how_to_works_banner h3{font-size:21px;}
+
+  .works{padding:100px 0 50px;}
+
+  .works_single_content{margin-bottom:15px;}
+
+  .staffsplleft ul li {font-size: 14px;line-height: 21px;display: inline-block;}
+
+  .staffsplleft ul li img{float:left;}
+
+  .staffsplleftbut{margin-bottom:50px;}
+
+  .login_page {padding:80px 0px 0px 0px;}
+
+  .login {padding: 20px;}
+
+  .login_page h4{font-size:24px;}
+
+  .bantreesec{margin:0;}
+
+  .howbanimg {padding-bottom: 20px;}
+
+  .inneremploypg{padding-top:50px;}
+
+  .sucespagtab ul li button{font-size: 12px;padding: 5px 8px;}
+
+  .works_my_job_view .works_heading h4{font-size: 20px;padding-bottom: 20px;margin-bottom:0;}
+
+  .sign_up{padding:20px;}
+
+  .offset-2{margin-left:0 !important;}
+
+  ul.stfdetls li .stftxtcls{min-height: 50px;}
+
+  ul.stfdetls li strong.titlebox{font-size: 14px;font-weight: 600;line-height: 30px;}
+
+  .fivebox ul li{width:100%;}
+
+  .successtable{padding:10px;}
+
+  h6 {font-size: 14px;font-weight: 600;line-height: 22px;}
+
+  #checkout_form .crddtls input{width:32%;font-size:12px;}
+
+  .input_box .check_box .form-check input {margin-right: 10px;  width: 15px !important;  height: 15px !important;  padding: 5px;}
+
+  .input_box .check_box .form-check{margin-bottom:30px;}
+
+  #jobpost .check_box .form-check {width: 50%;}
+
+  #jobpost .check_box .form-check label {width: 85%;}
+
+  #regform #forstaff.form-group label{width:88%;}
+
+.modal .modal-content{width:100%}
+
+.howbanimg{display:flex;justify-content:center;margin-top:50px}
+
+.howbanimg img{width:80%}
+
+.bantreesec.bantreesec_sty{padding:0px 20px}
+
+.staffsplleftbut a.banbt{margin:10px 0px}
+
+.howwrk{display:flex !important;align-items:center !important;padding:20px 10px} 
+
+.howwrk h3{min-height:auto !important;}
+
+.howbanimg_position{justify-content:flex-start;}
+
+.headersec .navbar{background:#fff !important}
+
+.sidenav{padding-top:15px !important;}
+
+.menu_img{display:flex;justify-content:center}
+
+.menu_img img{width:300px;opacity:.5;}
+
+.mobilebelownav{padding:10px 0px !important;}
+
+.topemploy p{line-height:20px !important;}
+
+.numbrcunt{padding:25px 0px;}
+
+.counter-Txt{padding:10px 0px 0px 0px !important;}
+
+.numbrcunt .margin-bot-35{margin-bottom:0px;}
+
+.oparatesec{background:none;background-image:none !important; background-color:#d4daf8}
+
+.oparatesec .hwimg{margin-right:10px;width:30%;float:left;} 
+
+.login_info {display: inline-block;}
+
+.pass_forgot{padding-bottom:10px;}
+
+.oparatesec .howwrk h3{text-align:left;width:68%;float:right;}
+
+.works .works_single_content{margin:0px 0px 20px 0px;padding:0px;min-height:160px;display:flex;align-items:center;}
+
+.works .works_single_content h5{padding:20px 5px 0px 5px;}
+
+.staff_express_special{padding:50px 0px !important;}
+
+.staff_express_special .row,.staff_banner .bantreesec .row{display:flex;flex-direction:column-reverse;}
+
+.staff_express_special .staffsplleft{margin-top:50px}
+
+.staff_express_special .staffsplleftbut{margin-bottom:0px !important}
+
+.oparatesec .hwimg_inner{padding-right:10px}
+
+.oparatesec .innerhwo{margin-left:10px;text-align:left;}
+
+.how_to_works_banner .bantreesec .howbanimg{margin-top:0px}
+
+.works #map_canvas{margin-top:50px}
+
+.headersec .navbar {position:fixed;width:100%;top:0%;left:0%;background:#fff !important}
+
+
+
+ul.mainleft{margin-bottom:30px;}
+
+.stepbystp{text-align:center;padding:10px;margin:10px 0 30px;display:none;}
+
+.stepbystp ul li{width:100%;}
+
+.works .jobdtlsall #filter form {display: inline-block;margin: 0px 0px;width: 100%;}
+
+.works .jobdtlsall #filter form select, .works .jobdtlsall #filter form input{border-bottom:1px solid #eee;}
+
+.works_search_cover form input::before{width:0px;}
+
+#map_canvas{height:400px !important;}
+
+.f_column_bx{width:100%;}
+
+
+
+.mobsoclicon{display: block;position: absolute;right: 53px;width: 80px;text-align:right;}
+
+.mobsoclicon a{padding: 0;margin: 0;width: auto;display: inline-block;}
+
+ul.footsocilist{text-align:center;padding-top:7px;}
+
+
+
+.vwjbmainbk{padding:15px;}
+
+p.plzregsjob{text-align:center;}
+
+.viethejobbk p.plzregsjob a{display: inline-block;width: 100%;text-align: center;margin:10px 0;}
+
+.vwjbmainbk p span.pertiwidth{width:100%;padding-bottom: 5px;}
+
+.alljbdts p span.pertiwidth{width:100%;padding-bottom: 5px;}
+
+.viewthejobrighttxt{width:100%;}
+
+
+
+
+
+.availbjob h3{font-size:21px;padding-bottom:15px;}
+.glortall{margin:0 0 20px 0;padding:20px;}
+
+.recentcover h3{font-size:21px;}
+
+.flgleft img {width: 22px;}
+
+.flgrttxt h5{font-size:12px;line-height:14px;}
+
+.oparatecontent{margin-top:0px;}
+
+.footerlogo{text-align:center;}
+
+.footerlogo img {width: 80px;}
+
+.parttxt{padding-right:0;}
+
+.works_single_content p{padding:10px 5px;}
+
+.works_single_content .whystffimg img {width: 60px;}
+
+.staff_express_special h3{font-size:20px;}
+
+.advnserch .joccatfrmfild{width:100%;margin-bottom:20px;border-right:0px;}
+input#showcats{padding-bottom:10px !important;}
+
+.advnserch .joccatfrmfild:nth-child(5){width:97%;padding-right:0px;}
+
+.advnserch .joccatfrmfild:last-child{width:100%;margin-bottom:0;}
+
+.works form input[type="submit"]{width:100%;margin-bottom:10px;height: auto;}
+
+.login_page input[type="button"]{width:100%;margin-bottom:10px;height: auto;}
+
+.viewthejobmaindescribe ul{padding-left:15px;}
+
+.viewthejobmaindescribe ul li{float:none;border-right:none;padding-left:0;list-style-type:disc;font-size: 14px;}
+
+.contactspl .contactuspartimage img {width: 50px;}
+
+.contactspl label {font-size: 16px;font-weight: 500;}
+
+.contactspl p{font-size: 14px;line-height: 20px;line-height:20px;font-weight:400;}
+
+ul.onlyemployernav li{font-size:14px;font-weight:500;}
+
+ul.onlyemployernav li a {padding: 5px 5px;}
+.works_success .martopadjst{padding: 20px 10px;}
+.how_to_works_banner{margin-top:81px;}
+.allfrmdesgn input{font-size:14px;}
+/* .sucespagtab{overflow:scroll;} */
+.jobrighthour{margin-bottom:15px;margin-top:25px;}
+.sucespagtab{overflow:hidden;}
+.myclockin{width: 100%;}
+.works.howpagewhy{padding: 50px 0px;}
+.midfooter{border-bottom: none;}
+.login_page .login h4{margin-bottom: 20px;}
+.my_job_sty{padding: 100px 0px 0px 0px;}
+.my_job_sty .inrpglink ul li{margin: 15px 0px;}
+.my_job_sty .inrpglink ul{text-align: center;}
+.my_job_sty span.orgback{padding: 5px;margin-top: 5px;}
+.my_job_sty .emplomesslefttxtdetls{padding-left: 10px;}
+.works_inner .viwthejobdetails{margin-top: 0px;padding-top: 30px;} 
+.works_inner .onlyviwjobhelp input{min-height: auto;}
+.recentcover{padding:30px 0 20px 0;}
+.viethejobbk{padding-bottom: 0px;}
+.homebannersec{padding-top: 40vh;}
+.works_inner .vwjbmainbk{padding: 15px 15px 25px 15px;}
+#sendmsg{display: block;width: 100%;text-align: center;padding: 10px 30px !important;margin-top: 25px !important;}
+.messaging_sty .homebtn li{margin-top: 60px;padding-right: 0px;}
+.messaging_sty .homebtn li a{padding: 10px 30px;}
+.inrpglink{padding:10px 0;}
+.works_success .inrpglink ul{text-align: center;}
+.subnavright ul{margin-top:0;}
+.works_success .inrpglink ul li{margin: 5px 0px;font-weight:400;}
+.works_success .inrpglink ul li a{padding:5px 1px !important;font-size:12px;}
+.works_success .inrpglink .subnavright ul li a{padding:6px 10px !important;}
+.works_success li a{padding: 10px 30px !important;margin: 0px 5px;}
+.inrpglink ul li a{border-bottom:2px solid transparent;}
+.inrpglink ul li a:hover{border-bottom:2px solid;}
+.inrpglink ul li.active a{border-bottom:2px solid;}
+.works_success .inrpglink ul{margin-bottom:10px;}
+.works_my_job_view .jobdetlstabl .sucespagtab .nav-pills li{margin: 5px 0px;}  
+.editjoball{padding: 50px 0px;}
+.my_job_sty .onlyemployernav{text-align: center;}
+.my_job_sty .onlyemployernav li{margin: 5px 0px;}
+.i_am_staff_sty form input{min-height: auto;}
+.works_my_job_search:before{display: none !important;}
+.eplyfrm span{display: contents;}
+.eplyfrm input[type=radio]{margin: 5px 5px 5px 0px;}
+.messaging_sty #sendmsg{font-size: 13px;}
+.edit_job_2_sty .eplyfrm input[type="checkbox"],.edit_contract_sty .eplyfrm input[type="checkbox"]{margin: 5px 5px 5px 0px;}
+.footerlist ul li a,.footsocilist li a{padding: 0px !important;} 
+.application_sty .jobimageleft{display: flex !important;justify-content: center;}
+.application_sty .jobimageleft img{width: 50%;}
+.my_job_sty #caldates .grnback{padding: 5px;}
+.my_job_sty #caldates .grnback a{color: #fff;}
+.works_success .mainleft li a, .profile_side_bar .mainleft li a, .welcome .mainleft li a, .emp_messages .mainleft li a,.application_sty .mainleft li a,.employer_registration_sty .mainleft li a,.edit_job_4_sty .mainleft li a{display: block !important;padding: 5px 10px !important;background-color: #fff;border-radius: 0px;color: #4396BA;font-weight: 700;font-size: 12px;margin:0 2px !important;border:1px solid #4396BA;}
+ul.mainleft li.active a{background-color:#4396BA;color:#fff;}
+.i_am_staff_sty input[type="submit"]{height: auto;margin-top: 10px;}
+.employer_registration_sty input[type="submit"]{height: auto;}
+.job_post .onlyemployernav li{margin: 5px 0px;}
+.job_post_4_sty .onlyemployernav li,.job_post_6_sty .onlyemployernav li{margin: 5px 0px !important;}
+.staff_payament_4_sty .works_heading form input[type="file"]{margin-top: 5px;}
+.successtable table tr th{font-size:13px;}
+.my_job_sty .frmfstname a{font-size:12px;line-height:18px;}
+.works_success li a{padding:10px 5px !important;margin:0 !important;}
+.works .jobdtlsall #filter form input[type="submit"]{min-height:40px;}
+.myalljobs{width:100%;padding:0 0px;}
+span.viewmyjobstatus{float:none;width: 100%;display: inline-block;}
+
+.works_success ul.mainleft li{display:inline-block;width:auto;margin-bottom:0 !important;font-size:14px;border:0px !important;border-left:0px !important;}
+.works_success ul.mainleft li:before{background:none !important;transform:none !important;}
+select.mobileajstgap{margin-bottom:30px;}
+.mobjobad{margin-bottom:30px;border-bottom:1px dashed #ccc;}
+.uploadvidlt{padding-right:0;border-right:none;}
+.onlyfltrt.stfpymnt4vwbtn a{margin:5px 0;}
+span.datehighlight{width:100%;text-align:center;}
+#jobdates{margin-bottom:30px;}
+.mainpadadjst{padding-top:100px !important;}
+
+a.desktopvw{display:none;}
+a.mobilvw{display:block;}
+.regflotingbutn{display:none;}
+.form-control{font-size:12px;}
+span.mnthago{padding-right:0;}
+.othrdescrp span.newjbdtl{min-width:43%;}
+.personlinfrm h4{padding-bottom:5px;margin-bottom:0 !important;}
+.personlinfrm p{margin-bottom:0;}
+p.avldts{font-size:13px;line-height:24px;}
+h5.manfhirehdng {font-size: 13px;}
+.personlinfrm{padding-bottom: 10px;margin-bottom: 20px;}
+span.viewpopcover a{padding: 5px 20px;}
+p.fntadjst{font-size:13px;}
+a.sndcnfmsn{text-align:center;}
+.viewthejobmaindescribe{margin-bottom:30px;}
+.covertype{margin-bottom:0;}
+.fullfrmtime p{margin-bottom:0;}
+#shwdaterange{margin-top:30px;width:100%;float:none;}
+#shifttype{margin-top:15px;}
+p.myshiftoptns{padding-bottom:10px;}
+.indivisualstep{margin-bottom:0;}
+.stepsec{margin-bottom:30px;}
+.poputxt h5{font-size:12px;}
+.splselectgapmob{margin-bottom:25px;}
+.jobrighthour p{padding-top:0;}
+.jobrighthour h5{padding-bottom:0;}
+.modal .modal-dialog{place-content:start;display:grid;}
+.modal-title{font-size:16px;}
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.headersec .navbar .navbar-brand img {width: 100px;}
+
+.mobilebelownav{display:block;}
+
+.navbar-toggler{border:none; padding-right:0;}
+
+.headersec .navbar-toggler-icon {
+
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.95)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+
+.headersec .navbar-nav.leftsidenav {padding-left:0;}
+
+.headersec .navbar-light .navbar-nav .nav-link{font-size:17px; padding-top:0.7rem; padding-bottom:0.7rem;}
+
+.mobilebelownav li a{width:248px;}
+
+
+
+/*.homebannersec{padding-top:2rem; text-align:center; min-height:1050px; background-position:bottom center; background-size:100%;}*/
+
+.homebannersec br{display:none;}
+
+.bannercaption h2{font-size:16px; padding-bottom:1.2rem;}
+
+ul.homebtn li a{display:block; width:100%; margin-bottom:0.5rem; text-align: center;}
+
+ul.homebtn li{display:inline-block;}
+
+.bannercaption{padding-top:10%;}
+
+.bannercaption p {padding-top:1rem;width:50%;}
+
+.bannercaption p  span{display:block;}
+
+
+
+.oparatesec{padding:1rem 0 2rem; min-height:initial; background-position:top 8rem left; background-size:340px;}
+
+.oparatesec.globaccsec{min-height:initial; background-position:center right !important;background-size:40%}
+
+.oparatesec.cardsec{min-height:initial; background-position:top 8rem left;}
+
+.oparatesec h2{font-size:24px; padding-bottom:2rem;}
+
+.oparatecontent h3{font-size:24px;}
+
+.oparatecontent h5{font-size:16px;}
+
+ul.oparatelist li img{width:40px; left:-46px;}
+
+ul.oparatelist{padding:0 0 0 2.5rem; margin:1rem 0;}
+
+ul.oparatelist li strong.titlebox{padding-bottom:0.2rem;}
+
+ul.oparatelist li p{line-height:20px;font-size: 14px;font-weight: 400;}
+
+.platformprosec .platprotxt{width:100%; border-radius:20px; padding:1rem; min-height:initial;}
+
+.platformprosec .platprotxt h2{padding-bottom:1rem; font-size:20px;}
+
+.platformprosec br{display:none;}
+
+.platformimgbox{position:relative;bottom:0; margin-top:0;}
+
+.footerlist{padding-top:0;}
+
+.midfooter p{text-align:left; line-height:18px;}
+
+.policylist{text-align:center;}
+
+.policylist li{}
+
+.bottomfooter{width:100%; padding:1.5rem;}
+
+.footerlist ul li{margin-bottom:0;}
+.footersec{padding-top:35px;min-height:auto;}
+.footerlogo img {width: 107px;margin-top: 26px;}
+.midfooter{border-bottom:none;padding:10px 15px;}
+ul.dbfootlist li{padding-right:0.2rem; font-size:12px;}
+
+ul.navleftbar li{width:100%; display:block;}
+
+.dashboardsec{padding:4rem 0 1rem;}
+
+.smalllogodb{padding-left:0;}
+
+.dashbody{padding:1rem;}
+
+.padright{padding-right:13px;}
+
+.padleft{padding-left:13px;}
+
+.imagetxtcarbox{padding:1rem 0;}
+
+.singinleftform {width:100%;}
+
+.signinsec{padding:6rem 0 4rem}
+
+.customfield ul li label span{width:100%;}
+
+.balancebox.usdbalencebox{margin-top:2rem;}
+
+.paylinkbox .btn{position:relative; top:-1px;}
+
+.dashboardsec .navleftbar, .dashboardsec .smalllogodb{display:none;}
+
+.fordashboardsec{display:block;}
+
+
+
+ul.navleftbar{margin-top:1rem;}
+
+ul.navleftbar li a{font-size:16px;}
+
+ul.navleftbar li img{left:25px;}
+
+.dashnavleft{padding:0.7rem;}
+
+.usercls{font-size:12px;}
+
+.dashheader .usercls img{width:30px;}
+
+.rightheadercls{display:none;}
+
+
+
+.userprofilelink{width:85%; padding:0.7rem; border:1px solid #d7d7d7; text-align:center; margin:1rem auto;}
+
+.userprofilelink .usercls img{width:34px; border-radius:50%; margin-right:7px;}
+
+.userprofilelink .usercls{font-size:14px;}
+
+.fordashboardsec{display:block;}
+
+.currencybox.invoiceblock{width:58%;}
+
+.inviewdlbtn{width:40%;}
+
+.sendpaymentform{width:100%;}
+
+.cardpayinputbox, .cardinfobox{width:100%;}
+
+
+ul.mainleft {padding-left: 0;display: inline-block;width: 100%;}
+.works_success ul.mainleft li{width:auto;float:left;border:none !important;border-left:0 !important;font-weight:500;padding: 10px 30px !important;}
+ul.mainleft li:before{background:none !important;}
+ul.mainleft li a{padding:5px 25px !important;font-weight:600;}
+ul.mainleft li.active{background-color:transparent;color:#3176B4;}
+ul.mainleft li.active a{color:#3176B4;border-bottom:5px solid #3176B4;}
+.tabhiddn{display:none;}
+
+/*-------------Babai_20.5.22-------------*/
+
+
+
+.homebannersec{min-height: 310px !important;background-position: 85% top !important;background-size: 37% !important;margin-top:90px;padding-bottom: 0px;}
+.serchsecsn{width:100%;margin-top:60px;}
+  .bannercaption{width:100%;}
+  .banner_heading_all{width: 100%;padding-top:15px;}
+.vidsecsn h3{font-size:24px;}
+  .banner_heading_all h1{font-size: 25px;}
+
+  .izvVyF{padding: 10px;}
+
+  .fULJlD{display: flex;align-items: center;}
+
+  .jObQxe{display: flex;align-items: center;height: 100%;flex-direction: unset;}
+
+  .jObQxe h3{font-size: 15px;}
+
+  .serchsecsn h3 {font-size: 30px;}
+
+  .populrbx{min-height: 100px;display: flex;align-items: center;}
+
+  .poputxt h5{margin-left: 10px;}
+
+  .oparatesec{padding: 50px 0px !important;background-position: bottom left !important;}
+
+  .oparatesec h2{margin-bottom: 20px;}
+
+  .oparatesec.bg_none{background-position: right center !important;}
+
+  .howwrk h3{font-size: 14px !important;}
+
+  .sertxtbxall{padding-right:20px}
+
+  
+
+  .sertxtbxall label{font-size:14px;}
+
+  .how_to_works_banner h3{font-size:24px;}
+
+  .works_single_content{padding:10px;}
+
+  .works_single_content h5{padding:10px 0;font-size: 13px;margin:0px;}
+
+  .works{padding:100px 0;}
+.works.howpagewhy{padding:50px 0;}
+  .staffsplleft ul li {font-size: 14px;display: inline-block;}
+
+  .staffsplleft ul li img{float:left;}
+
+.stepbystp ul li{font-size:10px;}
+.jobrighthour h5{font-size:17px;}
+span.onlyconnidiontext{font-size: 14px;}
+.jobrighthour p{padding-top:10px;font-size:13px;}
+.viewthejobmaindescribe ul{padding-left:15px;}
+.viewthejobmaindescribe ul li{float:none;border-right:0;padding:0;list-style-type: disc;}
+ul.messleftshort li{padding:10px;}
+.namedate h5{width:65%;}
+.namedate p{width:33%;font-size:10px !important;}
+ul.messleftshort li p.frmfstname{font-size:12px;}
+ul.messemployee li span.shrtdescrip{font-size:12px;}
+.modal .modal-content {width:760px !important}
+.tabupgap{padding:120px 0 50px;}
+.navbar-light .navbar-brand{padding-left:20px}
+
+.navbar-light .navbar-toggler{padding-right:20px}
+
+.howbanimg{width:100%;height:100%;display:flex;align-items:center;}
+.staff_express_special{padding:50px 0;}
+.staff_profile_sty,.my_job_sty{margin-top: 60px;}
+.i_am_staff_sty .sign_up {padding: 40px 20px;}
+.messemployee li{display: flex !important;}
+.messemployee li .clinima{width:20%;}
+.messemployee li .emplomesslefttxtdetls{width:80%;}
+.clinima img {width: 40px;height: 40px;}
+.recentcover h3{font-size:24px;}
+.numbrcunt{padding:30px 0;}
+.counter-Txt span{font-size:36px;}
+.counter-Txt{font-size:15px;}
+.flgleft img{width:25px;}
+.flgrttxt h5{font-size:12px;line-height:14px;}
+.hwstafftabspl{margin-top:0;}
+.howwrk{margin-bottom:0;}
+.jVMMfb {font-size: 14px;line-height: 20px;}
+.howwrk p{font-size: 14px;line-height: 20px;color: #54545e !important;min-height:100px;}
+.how_to_works_banner{margin-top:90px;padding:25px 0 5px;}
+.banhowbtn{margin-top:10px;}
+.bantreesec.bantreesec_sty .col-sm-6:nth-child(2){margin-top:0;}
+.banhowbtn a{padding: 10px 20px;}
+.parttxt h4{font-size: 16px;margin-bottom: 10px;padding: 10px 0 10px 0px;}
+.parttxt p{font-size:14px;}
+.works .jobdtlsall #filter form{display:inline-block;width:100%;}
+.advnserch .joccatfrmfild{width:32%;margin-bottom:20px;border-right:0px;border-bottom:1px solid #ccc;}
+.advnserch .joccatfrmfild:nth-child(5){width:32%;padding-right:0px;}
+.advnserch .joccatfrmfild:last-child{border-bottom:none;}
+.works_search_cover{margin-top:30px;}
+.login_page{padding-top:90px;}
+.tabbackbg{background-color:#fff;}
+.login_page input[type="submit"]{padding:0;margin-bottom:0;}
+.login{padding-bottom:0;}
+.login_page h4{font-size:24px;margin-bottom:15px;}
+.allfrmdesgn input {width: 100%;height: 40px;border-radius: 5px;border: 1px solid #ccc;margin-bottom: 20px;padding: 5px;font-size: 13px;}
+.pass_forgot a{font-size:14px;}
+.martopadjst{padding:10px !important;}
+.martopadjst2{padding:10px;}
+.works_my_job_search:before{display: none;}
+.martopadjst input[type="file"]{min-height: auto;margin-top: 10px;}
+.i_am_staff_sty .works_heading{width: 100%;}
+.i_am_staff_sty .works_heading form .form-group{margin-bottom: 0px;}
+.i_am_staff_sty .martopadjst input[type="button"],.i_am_staff_sty .login_page input[type="submit"]{min-height: auto;}
+.i_am_staff_sty .martopadjst{padding: 20px !important;}
+.i_am_staff_sty .martopadjst2{padding: 20px;}
+.stepbystp li{font-size: 14px !important;}
+.login_page .splnav .onlyemployernav{margin-bottom: 40px;}
+.employer_registration_sty .login_page{padding-top: 50px;}
+.messaging_sty .homebtn li a{padding: 10px 30px !important;}
+.viethejobbk .vwjbmainbk .viwthejobdetails{margin-top: 0px !important;padding-top: 30px;}
+.works_success .mainleft li a, .profile_side_bar .mainleft li a, .welcome .mainleft li a, .emp_messages .mainleft li a,.application_sty .mainleft li a,.employer_registration_sty .mainleft li a,.edit_job_4_sty .mainleft li a{display: block !important;padding: 15px 10px !important;}
+.privacy_sty .lesspadd img{display: none;}
+.menu_img{display: flex;justify-content: center;}
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+.headersec .navbar-nav.leftsidenav {padding-left:0rem;}
+
+.homebannersec{background-size:512px;}
+
+.oparatesec{background-size:430px;}
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1279px){
+
+.headersec .navbar-nav.leftsidenav {padding-left:3.4rem;}	
+
+	
+
+}
+
+
+
+
+
+
+

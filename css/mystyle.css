@@ -1,0 +1,90 @@
+label.error {
+
+  display: none !important;
+
+}
+
+
+
+input.error,
+
+select.error {
+
+  border-bottom: 1px solid #f00 !important;
+
+}
+
+
+
+.login_page input[type="button"] {
+
+  padding: 10px 30px;
+
+  background-color: #556EE6;
+
+  border: none;
+
+  color: #fff;
+
+  display: inline-block;
+
+  margin-top: 15px;
+
+  border-radius: 5px;
+
+  font-weight: 600;
+
+  font-size: 16px;
+
+}
+
+
+
+#mylocations {
+
+  z-index: 999;
+
+  padding: 10px;
+
+  position: absolute;
+
+  background-color: #fff;
+
+  border: 1px solid #ccc;
+
+  border-top: 0;
+
+  padding-top: 5px;
+
+  text-align: left;
+
+  left: -11px;
+
+  top: 30px;
+
+  width: 500px;
+
+}
+
+#mylocations ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#mylocations ul li {
+
+  font-size: 12px;
+
+}
+
+
+
+#mylocations ul li a {
+
+  color: #666;
+
+}
+
+.banner_heading_all .owl-stage-outer .owl-stage .owl-item h1 span {
+  color: #FBB759;
+}

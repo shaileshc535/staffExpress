@@ -1,0 +1,215 @@
+RewriteEngine On
+
+; RewriteCond %{SERVER_PORT} !^443$
+RewriteCond %{SERVER_PORT} !^443$
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}/$1 [R=301,L] 
+; RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteRule ^viestaffwmsg/(.*)/(.*)/$ viestaffwmsg.php?id=$1&jobid=$2 [QSA,L]
+RewriteRule ^viestaffwmsg/(.*)/(.*)$ viestaffwmsg.php?id=$1&jobid=$2 [QSA,L]
+
+RewriteRule ^viewmsg/(.*)/(.*)/$ viewmsg.php?id=$1&jobid=$2 [QSA,L]
+RewriteRule ^viewmsg/(.*)/(.*)$ viewmsg.php?id=$1&jobid=$2 [QSA,L]
+
+RewriteRule ^viewjob/(.*)/$ viewmyjob.php?id=$1 [QSA,L]
+RewriteRule ^viewjob/(.*)$ viewmyjob.php?id=$1 [QSA,L]
+
+RewriteRule ^emp_confirmation/(.*)/$ confirmation_job.php?id=$1 [QSA,L]
+RewriteRule ^emp_confirmation/(.*)$ confirmation_job.php?id=$1 [QSA,L]
+
+RewriteRule ^viewmyjob/(.*)/$ viewthejob.php?id=$1 [QSA,L]
+RewriteRule ^viewmyjob/(.*)$ viewthejob.php?id=$1 [QSA,L]
+
+RewriteRule ^myjobview/(.*)/$ myjobview.php?id=$1 [QSA,L]
+RewriteRule ^myjobview/(.*)$ myjobview.php?id=$1 [QSA,L]
+
+RewriteRule ^myappliedjobs/(.*)/$ myjobs.php?id=$1 [QSA,L]
+RewriteRule ^myappliedjobs/(.*)$ myjobs.php?id=$1 [QSA,L]
+
+RewriteRule ^editjob1/(.*)/$ editjob1.php?jobid=$1 [QSA,L]
+RewriteRule ^editjob1/(.*)$ editjob1.php?jobid=$1 [QSA,L]
+
+RewriteRule ^staff_login/error/$ staff_login.php?error=1 [QSA,L]
+RewriteRule ^staff_login/error$ staff_login.php?error=1 [QSA,L]
+
+RewriteRule ^employer_login/error/$ employer_login.php?error=1 [QSA,L]
+RewriteRule ^employer_login/error$ employer_login.php?error=1 [QSA,L]
+
+RewriteRule ^signup/success/$ sign-up.php?success=1 [QSA,L]
+RewriteRule ^signup/success$ sign-up.php?success=1 [QSA,L]
+
+RewriteRule ^forgot_password/success/$ forgot_password.php?success=1 [QSA,L]
+RewriteRule ^forgot_password/success$ forgot_password.php?success=1 [QSA,L]
+
+RewriteRule ^signup/error/$ sign-up.php?error=1 [QSA,L]
+RewriteRule ^signup/error$ sign-up.php?error=1 [QSA,L]
+
+RewriteRule ^forgot_password/error/$ forgot_password.php?error=1 [QSA,L]
+RewriteRule ^forgot_password/error$ forgot_password.php?error=1 [QSA,L]
+
+RewriteRule ^staff_login/error/$ staff_login.php?error=1 [QSA,L]
+RewriteRule ^staff_login/error$ staff_login.php?error=1 [QSA,L]
+
+RewriteRule ^signup/$ sign-up.php [QSA,L]
+RewriteRule ^signup$ sign-up.php [QSA,L]
+
+RewriteRule ^logout/$ logout.php [QSA,L]
+RewriteRule ^logout$ logout.php [QSA,L]
+
+RewriteRule ^staff_login/$ staff_login.php [QSA,L]
+RewriteRule ^staff_login$ staff_login.php [QSA,L]
+
+RewriteRule ^employer_login/$ employer_login.php [QSA,L]
+RewriteRule ^employer_login$ employer_login.php [QSA,L]
+
+RewriteRule ^welcome/$ welcome.php [QSA,L]
+RewriteRule ^welcome$ welcome.php [QSA,L]
+
+RewriteRule ^myjobs/$ success.php [QSA,L]
+RewriteRule ^myjobs$ success.php [QSA,L]
+
+RewriteRule ^staff_profile/$ profile.php [QSA,L]
+RewriteRule ^staff_profile$ profile.php [QSA,L]
+
+RewriteRule ^staff_details/$ i_am_staff.php [QSA,L]
+RewriteRule ^staff_details$ i_am_staff.php [QSA,L]
+
+RewriteRule ^employer_details/$ employer_registration.php [QSA,L]
+RewriteRule ^employer_details$ employer_registration.php [QSA,L]
+
+RewriteRule ^job_details/$ job_details.php [QSA,L]
+RewriteRule ^job_details$ job_details.php [QSA,L]
+
+RewriteRule ^view_application/$ application.php [QSA,L]
+RewriteRule ^view_application$ application.php [QSA,L]
+
+RewriteRule ^confirmation/$ confirm_hire.php [QSA,L]
+RewriteRule ^confirmation$ confirm_hire.php [QSA,L]
+
+RewriteRule ^message/$ message.php [QSA,L]
+RewriteRule ^message$ message.php [QSA,L]
+
+RewriteRule ^emp_messages/$ employr_messages.php [QSA,L]
+RewriteRule ^emp_messages$ employr_messages.php [QSA,L]
+
+RewriteRule ^staff_messages/$ staff_msgs.php [QSA,L]
+RewriteRule ^staff_messages$ staff_msgs.php [QSA,L]
+
+RewriteRule ^myappliedjobs/$ myjobs.php [QSA,L]
+RewriteRule ^myappliedjobs$ myjobs.php [QSA,L]
+
+RewriteRule ^jobpost1/$ job_post1.php [QSA,L]
+RewriteRule ^jobpost1$ job_post1.php [QSA,L]
+
+RewriteRule ^jobpost2/$ job_post2.php [QSA,L]
+RewriteRule ^jobpost2$ job_post2.php [QSA,L]
+
+RewriteRule ^jobpost3/$ job_post3.php [QSA,L]
+RewriteRule ^jobpost3$ job_post3.php [QSA,L]
+
+RewriteRule ^jobpost4/$ job_post4.php [QSA,L]
+RewriteRule ^jobpost4$ job_post4.php [QSA,L]
+
+RewriteRule ^jobpostsuccess/$ job_post4.php [QSA,L]
+RewriteRule ^jobpostsuccess$ job_post4.php [QSA,L]
+
+RewriteRule ^jobpost5/$ job_post5.php [QSA,L]
+RewriteRule ^jobpost5$ job_post5.php [QSA,L]
+
+RewriteRule ^jobpost6/$ job_post6.php [QSA,L]
+RewriteRule ^jobpost6$ job_post6.php [QSA,L]
+
+RewriteRule ^jobupload/$ job_upload.php [QSA,L]
+RewriteRule ^jobupload$ job_upload.php [QSA,L]
+
+RewriteRule ^staff_payment/$ staff_payment.php [QSA,L]
+RewriteRule ^staff_payment$ staff_payment.php [QSA,L]
+
+RewriteRule ^staff_payment2/$ staff_payment2.php [QSA,L]
+RewriteRule ^staff_payment2$ staff_payment2.php [QSA,L]
+
+RewriteRule ^staff_payment3/$ staff_payment3.php [QSA,L]
+RewriteRule ^staff_payment3$ staff_payment3.php [QSA,L]
+
+RewriteRule ^staff_payment4/$ staff_payment4.php [QSA,L]
+RewriteRule ^staff_payment4$ staff_payment4.php [QSA,L]
+
+RewriteRule ^staff_experience/$ staff_exp.php [QSA,L]
+RewriteRule ^staff_experience$ staff_exp.php [QSA,L]
+
+RewriteRule ^staff_video/$ staff_video.php [QSA,L]
+RewriteRule ^staff_video$ staff_video.php [QSA,L]
+
+RewriteRule ^job_search/$ myjob_search.php [QSA,L]
+RewriteRule ^job_search$ myjob_search.php [QSA,L]
+
+RewriteRule ^how_it_works/$ how_it_works.php [QSA,L]
+RewriteRule ^how_it_works$ how_it_works.php [QSA,L]
+
+RewriteRule ^job_hire/$ job_hire.php [QSA,L]
+RewriteRule ^job_hire$ job_hire.php [QSA,L]
+
+RewriteRule ^myjob_hire/$ job_hire_emp.php [QSA,L]
+RewriteRule ^myjob_hire$ job_hire_emp.php [QSA,L]
+
+RewriteRule ^managehire/$ managehire.php [QSA,L]
+RewriteRule ^managehire$ managehire.php [QSA,L]
+
+RewriteRule ^escrowmore/$ escrowmore.php [QSA,L]
+RewriteRule ^escrowmore$ escrowmore.php [QSA,L]
+
+RewriteRule ^i_am_staff/$ staff_info.php [QSA,L]
+RewriteRule ^i_am_staff$ staff_info.php [QSA,L]
+
+RewriteRule ^i_am_employer/$ employer_info.php [QSA,L]
+RewriteRule ^i_am_employer$ employer_info.php [QSA,L]
+
+RewriteRule ^searchcover/$ search_cover.php [QSA,L]
+RewriteRule ^searchcover$ search_cover.php [QSA,L]
+
+RewriteRule ^forgot_password/$ forgot_password.php [QSA,L]
+RewriteRule ^forgot_password$ forgot_password.php [QSA,L]
+
+RewriteRule ^contract/$ contract.php [QSA,L]
+RewriteRule ^contract$ contract.php [QSA,L]
+
+RewriteRule ^terms/$ terms.php [QSA,L]
+RewriteRule ^terms$ terms.php [QSA,L]
+
+RewriteRule ^privacy/$ privacy.php [QSA,L]
+RewriteRule ^privacy$ privacy.php [QSA,L]
+
+RewriteRule ^editjob2/$ editjob2.php [QSA,L]
+RewriteRule ^editjob2$ editjob2.php [QSA,L]
+
+RewriteRule ^editjob3/$ editjob3.php [QSA,L]
+RewriteRule ^editjob3$ editjob3.php [QSA,L]
+
+RewriteRule ^editjob4/$ editjob4.php [QSA,L]
+RewriteRule ^editjob4$ editjob4.php [QSA,L]
+
+RewriteRule ^editjob5/$ editjob5.php [QSA,L]
+RewriteRule ^editjob5$ editjob5.php [QSA,L]
+
+RewriteRule ^job_uploadedit/$ job_uploadedit.php [QSA,L]
+RewriteRule ^job_uploadedit$ job_uploadedit.php [QSA,L]
+
+RewriteRule ^editcontract/$ editcontract.php [QSA,L]
+RewriteRule ^editcontract$ editcontract.php [QSA,L]
+
+RewriteRule ^contact/$ contactus.php [QSA,L]
+RewriteRule ^contact$ contactus.php [QSA,L]
+
+RewriteRule ^about/$ about.php [QSA,L]
+RewriteRule ^about$ about.php [QSA,L]
+
+RewriteRule ^findus/$ findus.php [QSA,L]
+RewriteRule ^findus$ findus.php [QSA,L]
+
+RewriteRule ^emp_calendar/$ calendar.php [QSA,L]
+RewriteRule ^emp_calendar$ calendar.php [QSA,L]
+
+RewriteRule ^thankyou/$ thankyou.php [QSA,L]
+RewriteRule ^thankyou$ thankyou.php [QSA,L]

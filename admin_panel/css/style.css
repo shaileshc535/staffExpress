@@ -1,0 +1,35 @@
+ button.custombut{background-color:#01a430;font-weight:600;color:#fff;padding:7px 20px;border:1px solid #01a430;}
+ .card-title{line-height:33px;font-weight:600;}
+.blueback{background-color:#0158a4;}
+ .logomainlogin{padding:30px;text-align:center;}
+ .logomainlogin img{display:inline-block;width:20%;}
+ input.error, select.error{border-bottom:1px solid #f00 !important;}
+label.error{display:none !important;}
+
+.listing{clear:both;padding-top:25px;}
+.listing .dataTables_wrapper{width:100%;}
+
+.getdly{margin-bottom:20px;background-color:#f8f8f8;padding:20px;border-radius:5px;}
+.getdly p input{min-width:150px;min-height:35px;padding:7px;text-align:center;letter-spacing:1px;}
+.getdly p{margin:15px 0;display: inline-block;width: 100%;}
+p.onlyor strong{padding-left:0px;color:orange;}
+.seldt{width:100%;display:inline-block;}
+.getdly p span{width:250px;display:inline-block;}
+.mntyrsec{width:100%;display:inline-block;}
+.mntyrsec p{width:15%;float:left;}
+.mntyrsec span{float: left;padding-right: 25px;line-height: 72px;min-width:260px;}
+.mntyrsec p select{min-width:150px;}
+select{min-width:150px !important;}
+.nav-sidebar .nav-link p{color:#fff;}
+.nav-sidebar > .nav-item .nav-icon{color:orange;}
+nav.mt-2 ul li ul li a{padding-left:40px;}
+nav.mt-2 ul li ul li p{color:#fff;}
+[class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active, [class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active:focus, [class*="sidebar-dark-"] .nav-treeview > .nav-item > .nav-link.active:hover{background-color:rgba(255,255,255,.1);}
+.form-control{background-color:#f8f8f8;}
+nav.mt-2 ul li ul li ul li a{padding-left:60px;}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{background:linear-gradient(to bottom, #01a430 0%, #01661E 100%) !important;color:#fff !important;}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover{background:linear-gradient(to bottom, #01a430 0%, #01661E 100%) !important;color:#fff !important;}
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active{color:#fff !important;}
+.custom-select{background-color:#f8f8f8;}
+form.onlydilyrprt{box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);background-color:#fff;padding:20px;border-radius:5px;}
+.card-tools .btn-primary{display:none;}
